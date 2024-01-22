@@ -20,9 +20,11 @@ namespace CollectionsMasterConsoleUI
             Populater(numbers);
 
             //TODO: Print the first number of the array
+            Console.WriteLine("Your first array number is:");
             Console.WriteLine($"{numbers[0]}");
 
             //TODO: Print the last number of the array
+            Console.WriteLine("Your last array number is:");
             Console.WriteLine($"{numbers[numbers.Length - 1]}");
 
 
@@ -191,7 +193,7 @@ namespace CollectionsMasterConsoleUI
             for (int i = 0; i < numbers.Length; i++)
             {
                 Random rng = new Random();
-                numbers[i] = rng.Next(0, 50);
+                numbers[i] = rng.Next(0, 51);
 
             }
 
